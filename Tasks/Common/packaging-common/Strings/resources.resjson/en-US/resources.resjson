@@ -1,4 +1,7 @@
 {
+  "loc.messages.CredProvider_Error_InvalidServiceConnection": "The service connection for '%s' is not valid. Note that ApiKey service connections are not supported in this task. Instead, please use -ApiKey (NuGet) or --api-key (dotnet). See the task documentation for more details.",
+  "loc.messages.CredProvider_SettingUpForOrgFeeds": "Setting up the credential provider to use the identity '%s' for feeds in your organization/collection starting with:",
+  "loc.messages.CredProvider_SettingUpForServiceConnections": "Setting up the credential provider for these service connections:",
   "loc.messages.Error_ApiKeyNotSupported": "DotNetCore currently does not support using an encrypted Api Key.",
   "loc.messages.Error_ExpectedConfigurationElement": "Invalid xml. Expected element named 'configuration'.",
   "loc.messages.Error_NoMatchingFilesFoundForPattern": "No matching files were found with search pattern: %s",
